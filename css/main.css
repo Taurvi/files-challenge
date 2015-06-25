@@ -1,14 +1,16 @@
-body {
+:body {
 	font-family: Helvetica, sans-serif;
 	font-size: 18px;
 }
 
-img {
-	max-width: 600px;
+h1 {
+	text-align: center;
 }
 
-.center {
+img.center {
+	max-width: 600px;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
 }
+
